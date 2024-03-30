@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DGMark</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/title-bar-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <section class="main" id="home">
+        
+        <!-- NAV SECTION -->
+
+        <nav id="nav">
+            <div class="nav">
+                <div class="logo">
+                    <h1>DGMart</h1>
+                </div>
+                <div class="menus">
+                    <ul>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#service">services</a></li>
+                        <li><a href="#teams">teams</a></li>
+                        <li><a href="#company">company</a>
+                            <ul class="submenu">
+                                <li><a href="#">Company -1</a></li>
+                                <li><a href="#">Company-2</a></li>
+                                <li><a href="#">Company-3</a></li>
+                                <li><a href="#">Company-4</a></li>
+                                <!-- <li><a href="#">Company-5</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="side-menus" id="menubar"> <!---->
+                    <ul>
+                        <li id="closemenubar" onclick="hidemenu()"><i class="fa-solid fa-xmark"></i></li>
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#service">services</a></li>
+                        <li><a href="#teams">teams</a></li>
+                        <li><a href="#company">company</a>
+                            <ul class="submenu">
+                                <li><a href="#">Company-1</a></li>
+                                <li><a href="#">Company-2</a></li>
+                                <li><a href="#">Company-3</a></li>
+                                <li><a href="#">Company-4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">contact</a></li>
+                        <li><button>get started</button></li>
+                    </ul>
+                </div>
+                <div class="logbtn">
+                    <a href=""><button>get started</button></a>
+                </div>
+                <span onclick="showmenu()" id="bar"><i class="fa-solid fa-bars-staggered"></i></span>
+            </div>
+        </nav>
+
+        <!-- MAIN SECTION -->
+
+        <main>
+            <div class="texts">
+                <h1 class="anim">A Digital Agency Of <br>Inteligents & Creative <br>People</h1>
+                <p class="anim">the promotion of brands to connect with potential customers using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising.</p>
+                <a href="" class="anim"><button class="anim">contact us</button></a>
+            </div>
+            <div class="image">
+                <img src="./img/hero.png" alt="" class="anim">
+            </div>
+        </main>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about">
+        <div class="contant">
+            <div class="contanier">
+                <h1><i class="fa-solid fa-envelopes-bulk"></i></h1>
+                <h2>Digital Marketing</h2>
+                <p>Companies often combine traditional and digital strategies. But digital marketing also comes with its own set of challenges. </p>
+            </div>
+            <div class="contanier">
+                <h1><i class="fa-solid fa-magnifying-glass"></i></h1>
+                <h2>SEO & Backlinks</h2>
+                <p>High-quality backlinks can increase your ranking on visibility in search, translating to more traffic coming to your website.</p>
+            </div>
+            <div class="contanier">
+                <h1><i class="fa-solid fa-laptop-code"></i></h1>
+                <h2>Design</h2>
+                <p>the schematic plans and elevations are reviewed, to comapers the incorporate all the details and specifications required for construction.</p>
+            </div>
+        </div>
+        <div class="exbox">
+            <div class="contants">
+                <h1><i class="fa fa-certificate fa-3x text-secondary mb-3"></i></h1>
+                <h2>1263</h2>
+                <p>year experience</p>
+            </div>
+            <div class="contants">
+                <h1><i class="fa fa-users-cog fa-3x text-secondary mb-3"></i></i></h1>
+                <h2>1829</h2>
+                <p>Team members</p>
+            </div>
+            <div class="contants">
+                <h1><i class="fa fa-users fa-3x text-secondary mb-3"></i></h1>
+                <h2>2112</h2>
+                <p>satisfied clients</p>
+            </div>
+            <div class="contants">
+                <h1><i class="fa fa-check fa-3x text-secondary mb-3"></i></h1>
+                <h2>2112</h2>
+                <p>completed projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+
+    <section id="service">
+        <div class="head">
+            <hr>
+            <hr>
+            <h3>our services</h3>
+            <hr>
+            <hr>
+        </div>
+        <h1>What Solutions We Provide</h1>
+        <div class="conbox">
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2>SEO Optimization</h2>
+                <p>Search Engine Optimization and is the process used to optimize a website's technical configuration and link popularity </p>
+            </div>
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h2>Web Design</h2>
+                <p>the process of planning, conceptualizing, and implementing the plan for designing a website</p>
+            </div>
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2>Social Media Marketing</h2>
+                <p>Social media marketing (SMM) is a form of internet marketing that uses social media apps as a marketing tool.</p>
+            </div>
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-solid fa-envelopes-bulk"></i>
+                </div>
+                <h2>Email Marketing</h2>
+                <p>Email deliverability is the ability to deliver emails to subscribers' inboxes. It is what some marketers </p>
+            </div>
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2>PPC Advertising</h2>
+                <p> a type of internet marketing that involves advertisers paying a fee each time one of their ads is clicked</p>
+            </div>
+            <div class="container">
+                <div class="icons">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2>App Development</h2>
+                <p> the process of making software for smartphones, tablets and digital assistants  commonly for the Android and iOS operating systems.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- TEAMS SECTION -->
+
+    <section id="teams">
+        <div class="head">
+            <hr>
+            <hr>
+            <h3>our teams</h3>
+            <hr>
+            <hr>
+        </div>
+        <h1>our team members</h1>
+        <div class="container">
+            <div class="membercontainer">
+                <img src="./img/team-1.jpg" alt="">
+                <h3>john deo</h3>
+                <p>CEO & Founder</p>
+                <div class="socialicons">
+                    <div class="iconcont">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="membercontainer">
+                <img src="./img/team-2.jpg" alt="">
+                <h3>john deo</h3>
+                <p>CEO & Founder</p>
+                <div class="socialicons">
+                    <div class="iconcont">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="membercontainer">
+                <img src="./img/team-3.jpg" alt="">
+                <h3>john deo</h3>
+                <p>CEO & Founder</p>
+                <div class="socialicons">
+                    <div class="iconcont">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="iconcont">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clientcontainer">
+            <h1>what say our clients !</h1>
+            <div class="animatecontainer">
+                <div class="contants">
+                    <!-- <i class="fa-solid fa-quote-left"></i> -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aliquam odio corporis quod illo vero earum, consectetur animi repellendus atque!</p>
+                    <img src="./img/testimonial-1.jpg" alt="">
+                    <h3>client name</h3>
+                    <p>profession</p>
+                </div>
+                <div class="contants">
+                    <!-- <i class="fa-solid fa-quote-left"></i> -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aliquam odio corporis quod illo vero earum, consectetur animi repellendus atque!</p>
+                    <img src="./img/testimonial-2.jpg" alt="">
+                    <h3>client name</h3>
+                    <p>profession</p>
+                </div>
+                <div class="contants">
+                    <!-- <i class="fa-solid fa-quote-left"></i> -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aliquam odio corporis quod illo vero earum, consectetur animi repellendus atque!</p>
+                    <img src="./img/testimonial-3.jpg" alt="">
+                    <h3>client name</h3>
+                    <p>profession</p>
+                </div>
+                <div class="contants">
+                    <!-- <i class="fa-solid fa-quote-left"></i> -->
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore aliquam odio corporis quod illo vero earum, consectetur animi repellendus atque!</p>
+                    <img src="./img/testimonial-4.jpg" alt="">
+                    <h3>client name</h3>
+                    <p>profession</p>
+                </div>
+            </div>
+        </div>
+        <div class="downarrow">
+            <a href="#contact">
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section id="contact">
+        <div class="head">
+            <hr>
+            <hr>
+            <h3>our teams</h3>
+            <hr>
+            <hr>
+        </div>
+        <h1>contact for any query</h1>
+        <p>The contact form is currently inactive. Get a functional and working contact form <br>with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code<br> and you're done.</p>
+        <div class="form">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="f9f70592-48a8-4368-ba1c-e3b2c02b92e3">
+                <div class="inputBox">
+                    <input type="text" id="name" name="Name" required>
+                    <label for="">Your Name</label>
+                </div>
+                <div class="inputBox">
+                    <input type="email" id="name" name="Email" required>
+                    <label for="">Your Email</label>
+                </div>
+                <div class="inputBox">
+                    <textarea name="Massage" id="" cols="30" rows="10" required></textarea>
+                    <label for="">Message</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <article>
+        <div class="footcontainer">
+            <div class="head">
+                <h3>address</h3>
+                <hr id="first">
+                <hr id="second">
+            </div>
+            <p><i class="fa-solid fa-location-dot"></i> 123 street new york,USA</p>
+            <p><i class="fa-solid fa-phone"></i> +012 9201 12111</p>
+            <p><i class="fa-solid fa-envelope"></i> info@examople.com</p>
+            <div class="social">
+                <div class="box"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="box"><i class="fa-brands fa-twitter"></i></div>
+                <div class="box"><i class="fa-brands fa-instagram"></i></div>
+                <div class="box"><i class="fa-brands fa-linkedin-in"></i></div>
+            </div>
+        </div>
+        <div class="footcontainer">
+            <div class="head">
+                <h3>quick link</h3>
+                <hr id="first">
+                <hr id="second">
+            </div>
+            <ul>
+                <li><i class="fa-solid fa-angle-right"></i><a href="">about us</a></li>
+                <li><i class="fa-solid fa-angle-right"></i><a href="">contact us</a></li>
+                <li><i class="fa-solid fa-angle-right"></i><a href="">privacy policy</a></li>
+                <li><i class="fa-solid fa-angle-right"></i><a href="">terms condition</a></li>
+                <li><i class="fa-solid fa-angle-right"></i><a href="">carrer</a></li>
+            </ul>
+        </div>
+        <div class="footcontainer">
+            <div class="head">
+                <h3>new seller</h3>
+                <hr id="first">
+                <hr id="second">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis assumenda nobis quaerat voluptatum, dignissimos  aperiam.</p>
+            <div class="inputBox">
+                <input type="text" placeholder="Your Email">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+    </article>
+    <div class="copyrights">
+        <div class="left">
+            <p>&copy;DGMart, All Right Reserved - 2024</p>
+        </div>
+        <div class="right">
+            <span>Home</span>
+            <span>cookies</span>
+            <span>help</span>
+            <span>FQAs</span>
+        </div>
+
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        window.addEventListener("scroll", function() {
+            let header = document.getElementById("nav");
+            header.classList.toggle("sticky", window.scrollY > 0 );
+
+
+        })
+        // function showmenu() {
+        //     let menu = document.getElementById("menubar");
+        //     menu.style.display = "block";
+        // }
+        // function hidemenu() {
+        //     let menu = document.getElementById("menubar");
+        //     if(menu.style.display === "block"){
+        //         menu.style.display = "none";
+        //     }
+        // }
+            function showmenu() {
+                let menu = document.getElementById("menubar");
+                let bar = document.getElementById("bar");
+                menu.style.translate = "0px";
+                bar.style.visibility = "hidden";
+
+            }
+            function hidemenu() {
+                let menu = document.getElementById("menubar");
+                let bar = document.getElementById("bar");
+                menu.style.translate = "100%";
+                bar.style.visibility = "visible"
+            }  
+            </script>
+
+</body>
+</html>
